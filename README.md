@@ -1,4 +1,9 @@
-# Homey Battery Watchdog
+﻿# Homey Battery Watchdog
+
+[![Tests](https://github.com/Oberbaer/homey-battery-watchdog/actions/workflows/tests.yml/badge.svg)](https://github.com/Oberbaer/homey-battery-watchdog/actions/workflows/tests.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Node.js](https://img.shields.io/badge/Node.js-%3E%3D18-339933?logo=node.js&logoColor=white)](package.json)
+
 
 ## What it does
 
@@ -79,3 +84,4 @@ Do not run `install-disabled-flow.js --apply --approve` or an approved repair ag
 ## License
 
 [MIT](LICENSE), copyright 2026 Oberbaer.
+
