@@ -6,5 +6,24 @@
   "scripts": {
     "test": "node --test",
     "proposal": "node generate-flow-proposal.js"
-  }
+  },
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oberbaer/homey-battery-watchdog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Oberbaer/homey-battery-watchdog/issues"
+  },
+  "homepage": "https://github.com/Oberbaer/homey-battery-watchdog#readme",
+  "keywords": [
+    "homey",
+    "home-automation",
+    "smart-home",
+    "battery-monitoring",
+    "javascript"
+  ]
 }
