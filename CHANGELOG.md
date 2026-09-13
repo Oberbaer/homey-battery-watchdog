@@ -1,6 +1,6 @@
 ﻿# Changelog
 
-## Unreleased
+## [1.1.0] - 2026-09-13
 
 ### Added
 
@@ -13,7 +13,6 @@
 
 - CI now uses Node.js 24.
 - CI now tests, validates and builds the bundled Homey Watchdog app.
-- Public repository version prepared for v1.1.0.
 
 ## [1.0.0] - 2026-09-12
 
