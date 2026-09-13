@@ -15,9 +15,27 @@ The generated watchdog only reads existing Homey data. It does not poll or wake 
 
 A reported battery percentage can remain unchanged after a device stops communicating. This watchdog detects that loss of communication so it can be investigated before the device is needed.
 
+## Homey Watchdog app
+
+This repository also includes `Homey_Watchdog`, a native Homey Pro app that combines health diagnostics with scheduled battery-device silence monitoring.
+
+The app provides:
+
+- Read-only health analysis for Flows, devices, apps and dependencies.
+- Configurable monitoring for battery-capable devices that stop reporting.
+- Timeline warnings and optional mobile push forwarding.
+- Device exclusions, persistent finding annotations and a local settings dashboard.
+- Manual health scans, watchdog runs and notification tests.
+- Privacy, security and publish-validation documentation.
+
+The Homey app currently has its own internal app version `0.3.0` and app id `com.oberbaer.homeywatchdog`.
+
+Automatic battery monitoring starts disabled and must be explicitly enabled by the Homey owner.
+
 ## Requirements
 
-- Node.js 18 or later.
+- Node.js 18 or later for the root Advanced Flow tooling.
+- Node.js 22 or later for the bundled Homey Watchdog app.
 - A Homey with Advanced Flow and HomeyScript installed for live use.
 - The Homey CLI, either installed globally or available as a local `homey` package. The scripts first use normal Node module resolution, then discover the global npm module directory. Set `HOMEY_CLI_MODULE_DIR` if the global directory cannot be discovered.
 - A Homey folder named `Battery Watchdog` when installing the generated Flow.
@@ -84,4 +102,3 @@ Do not run `install-disabled-flow.js --apply --approve` or an approved repair ag
 ## License
 
 [MIT](LICENSE), copyright 2026 Oberbaer.
-
