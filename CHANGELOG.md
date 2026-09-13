@@ -2,7 +2,18 @@
 
 ## Unreleased
 
-_No unreleased changes yet._
+### Added
+
+- `Homey_Watchdog`, a native Homey Pro app combining health diagnostics with scheduled battery-device silence monitoring.
+- Local settings dashboard, Flow cards, owner-only APIs and device exclusions.
+- Privacy, security, scoring and Homey Store documentation for the app.
+- Dedicated unit tests and Homey publish-level validation.
+
+### Changed
+
+- CI now uses Node.js 24.
+- CI now tests, validates and builds the bundled Homey Watchdog app.
+- Public repository version prepared for v1.1.0.
 
 ## [1.0.0] - 2026-09-12
 
